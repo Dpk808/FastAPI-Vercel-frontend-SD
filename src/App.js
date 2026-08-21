@@ -3,7 +3,7 @@ import axios from "axios";
 import "./App.css";
 
 const api = axios.create({
-  baseURL: process.env.REACT_APP_API_BASE_URL || "http://localhost:8000",
+  baseURL: "http://localhost:8000",
 });
 
 function App() {
